@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    width: 1200px;
+    margin: 2em auto;
+    text-align: left;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #333;
+    color: white;
+}
+
+.status-Beérkezett {
+    background-color: blue;
+}
+
+.status-Hibafeltárás {
+    background-color: red;
+}
+
+.status-Alkatrészbeszerzésalatt {
+    background-color: orange;
+}
+
+.status-Javítás {
+    background-color: purple;
+}
+
+.status-Kész {
+    background-color: green;
+}
